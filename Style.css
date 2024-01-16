@@ -1,4 +1,58 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    background-color: rgb(89 164 168);
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+    font-weight: 500;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 4rem 0;
+}
+
+.choice{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+img{
+    height: 190px;
+    width: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choice:hover{
+   
+    background-color: rgb(59, 132, 136);
+    cursor: pointer;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 2rem;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
 }
