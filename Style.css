@@ -56,3 +56,16 @@ img{
 #user-score, #comp-score{
     font-size: 4rem;
 }
+
+.msg-container{
+    margin-top: 4rem;
+}
+
+.msg{
+    background-color: red;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
